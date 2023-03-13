@@ -5,8 +5,21 @@
 - gets.chomp
 - assign answers to variables
 - provide user with a choice
-- use inlude? == value to interperet user inputs
+- use include? == value to interpret user inputs
 - STORY
+-  Create first story prompt/introduction:
+- write a short introduction to describe the game, explain any unusual commands, and warn about adult content if any.
+- "Hello! #user welcome to Lava Lake Island, where mystery and adventure await you. You have crashed landed on a "deserted" Island somewhere in the bermuda triangle. As the only Survivor of a horrible crash, you must your wits and guile to escape the island with your body and  sanity intact.You are equipped with three items ( volleyball,flare, coconut) each of which will be pivotal in your survival.
+- You awaken dizzy and incoherent from the crash, as your senses come back, you notice your surroundings. After getting your bearings, you note that you can travel east, west, north and/or south on the island. Amidst the wreckage of your plane, you notice a few items: a volleyball, a flare, and finally a coconut. 
+- Give user prompt to take items into inventory(X) (What would you like to do ?)
+- Two choices : 1.pick up items  -(take) (keywords: volleyball, flare, coconut) and/or (display) show item description
+- 2. not grab items and progress in game via direction (death/bad outcomes)
+
+ You have made the decision to explore the island further, which direction do you want to head ? north, south, east, or west ?
+user has four options : 
+
+
+See below : 
   \_**_
   v _( )
   _ ^ _ v (\_**(**)
@@ -23,10 +36,11 @@
 ```````
     - crash landed on an island (castaway style)
     - there are a few starting items littering the ground around the player
-        - map (north, south, east, west)
-        - flare (signals wild animals that kill the playe, is not helpful to the player in any way)
-        - volleyball (gives player happiness points/makes the player insane (two seperate variables))
+        - four directions (north, south, east, west)
+        - flare (signals wild animals that kill the player, is not helpful to the player in any way)
+        - volleyball (gives player happiness points/makes the player insane (two separated variables))
         - coconut (player can drink the water? gives happiness points)
+        
     - happiness points (variable that changes with certain choices made by player, negative HP results in sickness or insanity)
     - if the player goes south, they go into the water and a shark eats them
     -       .
